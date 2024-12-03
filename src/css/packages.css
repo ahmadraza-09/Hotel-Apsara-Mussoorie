@@ -1,0 +1,123 @@
+.packages-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.packages-section h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.packages-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.packages-card {
+    width: 400px;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.packages-card-banner {
+    width: 100%;
+}
+
+.packages-card-banner img {
+    width: 100%;
+}
+
+.packages-card h3 {
+    text-transform: uppercase;
+}
+
+.packages-card button {
+    margin: auto;
+    width: 150px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 0px;
+    cursor: pointer;
+    background-color: #b81104;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    border: 1.5px solid #b81104;
+}
+
+.packages-card button:hover {
+    background-color: #fff;
+    color: #b81104;
+    border: 1.5px solid #b81104;
+}
+
+.package-price span {
+    background-color: #008234;
+    color: #fff;
+    padding: 0px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.packages-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.packages-card-content ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.packages-card-content ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.packages-card-content ul li span {
+    font-weight: 600;
+}
+
+.packages-card-content ul li i {
+    color: #b81104;
+}
+
+
+
+/* Responsive */
+@media (max-width: 480px) {
+    .packages-section h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .packages-card {
+        width: 100%;
+        height: fit-content;
+    }
+}
