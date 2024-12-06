@@ -48,7 +48,7 @@ const Footer = () => {
               <p>
                 <i class="fa-solid fa-envelope"></i>
                 <a
-                  href="mailto:aromacorbett@royalcollectionhotels.com"
+                  href="mailto:mussoorie@rchr.in"
                   target="_blank"
                   aria-label="mail us for hotel booking"
                 >

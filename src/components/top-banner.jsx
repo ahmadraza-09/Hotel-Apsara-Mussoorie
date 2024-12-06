@@ -28,7 +28,7 @@ const TopBanner = () => {
         <div className="email">
           <i class="fa-solid fa-envelope"></i>
           <a
-            href="mailto:mussoorie@rchr.inm"
+            href="mailto:mussoorie@rchr.in"
             target="_blank"
             aria-label="mail us for hotel booking"
           >

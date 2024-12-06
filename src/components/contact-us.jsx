@@ -84,6 +84,12 @@ const ContactUs = () => {
                   G-24, Shyama Park, Nawada
                   Delhi 110059, India
                 </p>
+                <h3>Hotel Address</h3>
+                <p>
+
+                  
+opp. Picture Palace, The Mall Road, Mussoorie, Uttarakhand 248179
+                </p>
               </div>
             </div>
             {/* Email Info */}
